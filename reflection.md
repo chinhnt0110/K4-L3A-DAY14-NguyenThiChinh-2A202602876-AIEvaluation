@@ -9,7 +9,7 @@ answer/context trace trong `artifacts/actual_answers.json` trước khi kết lu
 
 ## 1. Benchmark Results Summary
 
-**Overall pass rate:** ____%
+**Overall pass rate:** 55%
 
 | Metric | Average | Min | Max | Nhận xét |
 |---|---:|---:|---:|---|
