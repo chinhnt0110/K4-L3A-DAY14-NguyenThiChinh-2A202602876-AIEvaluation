@@ -65,8 +65,6 @@ Ba bias thường gặp:
 
 **Câu 2: Làm thế nào giảm verbosity bias bằng rubric design?**
 
-> *Câu trả lời:*
->
 > Thiết kế rubric để độ dài không phải là tín hiệu cho điểm cao:
 >
 > - **Chấm theo tiêu chí cụ thể, kiểm chứng được** (đủ key points, đúng sự thật, đúng điều kiện) thay vì cảm nhận chung "tốt/đầy đủ". Câu trả lời dài mà không thêm key point nào thì không được thêm điểm.
