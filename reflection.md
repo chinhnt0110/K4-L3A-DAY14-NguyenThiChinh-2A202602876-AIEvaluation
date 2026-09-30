@@ -15,7 +15,7 @@ answer/context trace trong `artifacts/actual_answers.json` trước khi kết lu
 |---|---:|---:|---:|---|
 | Context Recall | 0.831 | 0.481 | 1.000 | Retriever tìm được hầu hết các tài liệu gốc cần thiết |
 | Context Precision | 0.915 | 0.700 | 1.000 | Tài liệu liên quan luôn được ưu tiên xếp ở top đầu |
-| Faithfulness | 0.613 | 0.278 | 0.941 | Model dễ hallucinate ở các câu hỏi bẫy (adversarial)|
+| Faithfulness | 0.613 | 0.278 | 0.941 | Thấp ở Hard/Adversarial; chỉ 1 case bị gán hallucination (A01) và case đó từ chối đúng. Một phần do heuristic word-overlap phạt cách diễn đạt khác (E01 đúng hoàn toàn nhưng chỉ đạt 0.64) |
 | Relevance | 0.605 | 0.333 | 0.938 | Một số câu trả lời bị lan man / từ chối chưa đúng cách|
 | Completeness | 0.602 | 0.185 | 1.000 | Bị yếu ở các câu Hard đòi hỏi tổng hợp nhiều điều kiện. |
 | Overall Score | 0.607 | 0.340 | 0.799 | Cần cải thiện khâu Generation |
